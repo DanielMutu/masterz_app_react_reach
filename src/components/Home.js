@@ -5,8 +5,9 @@ const Home = () => {
 
     return(
         <React.Fragment> 
-        <p> HEllo</p>
         <Menu></Menu>
+        <p> HEllo</p>
+        
         </React.Fragment>
     );
 };

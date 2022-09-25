@@ -7,7 +7,8 @@ const MenuEl = () => {
     return (
         <React.Fragment>
             <Menu>
-                <a id="home" className="menu-item" href="/">Home</a>
+                <a id="CreateFund" className="menu-item" href="/">Create New Fund</a>
+                <a id="DonateFund" className="menu-item" href="/">Donate </a>
             </Menu>            
         </React.Fragment>    
     );
