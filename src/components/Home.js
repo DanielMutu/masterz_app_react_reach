@@ -14,7 +14,9 @@ const Home = () => {
         <p class="title">TITLE PROJECT</p>
         <Container>
             <Row>
-                <Col xs><Cards/></Col>
+                <Col xs>
+                    <Cards/>
+                </Col>
             </Row>
         </Container>
         </React.Fragment>

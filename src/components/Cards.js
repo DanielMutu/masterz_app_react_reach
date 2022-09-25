@@ -2,6 +2,7 @@ import React  from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Cards.css';
+import AlgoSigner from "./AlgoSigner";
 
 const Cards = () => {
 const card = [
@@ -33,7 +34,7 @@ const renderCards = (card, index) => {
       <Card.Body>
         <Card.Title>{card.title}</Card.Title>
         <Card.Text>{card.text}</Card.Text>
-        <Button variant="primary">Donate</Button>
+        <Button variant="primary" onClick={AlgoSigner}>Login & Donate</Button>
       </Card.Body>
     </Card>
   );
