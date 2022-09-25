@@ -1,0 +1,17 @@
+.card {
+    background-color: coral;
+    margin-bottom: 20px;
+}
+img.card-img-top {
+    height: 200px;
+    margin-top: 25px;
+  }
+.col {
+    margin: 20px;
+    padding: 20px;
+}
+
+element.style {
+    width: 18rem;
+    border-radius: 10px;
+}
